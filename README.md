@@ -4,10 +4,10 @@ This is a basic, standalone [ElectricSQL](https://electric-sql.com) example web 
 
 ## Pre-reqs
 
-You need an [Electric sync service](https://electric-sql.com/product/sync) running and to set the `ELECTRIC_URL` environment variable pointing to it, e.g.:
+You need an [Electric sync service](https://electric-sql.com/product/sync) running and to set the `VITE_ELECTRIC_URL` environment variable pointing to it, e.g.:
 
-```shell
-export ELECTRIC_URL = 'http://localhost:3000'
+```env
+VITE_ELECTRIC_URL='https://my-electric-service.example.com'
 ```
 
 Your Electric should be connected to a Postgres instance with an `items` table.
